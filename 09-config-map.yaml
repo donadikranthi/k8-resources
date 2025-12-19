@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-demo
+data:
+  course: "Kubernetes for Beginners"
+  trainer: "kranthi"
+  duration: "3 months"
+  platform: "Joindevops"
